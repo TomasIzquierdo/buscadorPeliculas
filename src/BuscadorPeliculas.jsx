@@ -26,6 +26,7 @@ export const BuscadorPeliculas = () =>
             setPeliculas(data.results)
 
         } catch (error) {
+            
             console.log(error)
             
         }
